@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <ImageView
+            android:id="@+id/imgAvtHangHoa"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:textColor="#f00"
+                android:text="Mã số:" />
+
+            <TextView
+                android:id="@+id/tvMaSoHang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#f00"
+                android:text="HH001" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:textColor="#f00"
+                android:text="Tên hàng:" />
+
+            <TextView
+                android:id="@+id/tvTenHang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#f00"
+                android:text="Hang 001" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Loại hàng:" />
+
+            <TextView
+                android:id="@+id/tvLoaiHang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Xuất khẩu" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Loại:" />
+
+            <TextView
+                android:id="@+id/tvLoai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Loại A" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Ngày xuất:" />
+
+            <TextView
+                android:id="@+id/tvNgayXuat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="23/12/2017" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Ngày nhập:" />
+
+            <TextView
+                android:id="@+id/tvNgayNhap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2/10/2017" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

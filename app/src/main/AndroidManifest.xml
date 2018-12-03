@@ -11,11 +11,21 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.DangNhap" />
+        <activity android:name=".activity.thongke.TongSoLuongCongNhan" />
+        <activity android:name=".activity.thongke.TongSoHangHoa" />
+        <activity
+            android:name=".activity.DanhSachCongNhan"/>
+        <activity
+            android:name=".activity.DanhSachHangHoa"/>
+        <activity
+            android:name=".activity.TrangChu"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activity.ThongKe"></activity>
     </application>
 
 </manifest>

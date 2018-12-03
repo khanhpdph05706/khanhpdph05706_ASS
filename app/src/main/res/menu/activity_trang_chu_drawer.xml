@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ThongKe"
+            android:icon="@drawable/statistik"
+            android:title="Thống kê" />
+        <item
+            android:id="@+id/nav_DsCongNhan"
+            android:icon="@drawable/document"
+            android:title="Danh sách Nhân Viên" />
+        <item
+            android:id="@+id/nav_DsHangHoa"
+            android:icon="@drawable/document"
+            android:title="Danh sách hàng hoá" />
+    </group>
+
+    <item android:title="Khác">
+        <menu>
+            <item
+                android:id="@+id/nav_GioiThieu"
+                android:icon="@drawable/gioithieu"
+                android:title="Giới thiệu" />
+            <item
+                android:id="@+id/nav_Logout"
+                android:icon="@drawable/logout"
+                android:title="Thoát" />
+        </menu>
+    </item>
+
+</menu>
